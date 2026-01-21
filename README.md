@@ -130,6 +130,11 @@ py -m pip install streamlit yfinance pandas numpy scikit-learn xgboost matplotli
 ```
 ---
 
+## Run the App
+```bash
+py -m streamlit run stock_app.py
+```
+
 ## Note :
 This model generates a short horizon estimate based on historical price patterns. Market movement is uncertain, so the forecast should be treated as a probabilistic signal and not a guaranteed outcome.
 
